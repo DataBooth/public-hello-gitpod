@@ -1,0 +1,24 @@
+[project]
+name = "public-hello-gitpod"
+version = "0.1.0"
+description = "Simple 'hello world' Python setup on Gitpod"
+authors = [
+    {name = Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "notebook",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# Add any uv-specific configurations here if needed
