@@ -13,5 +13,3 @@ ENV PATH="/home/gitpod/.venv/bin:$PATH"
 
 # Activate the virtual environment
 ENV VIRTUAL_ENV="/home/gitpod/.venv"
-
-RUN uv sync
